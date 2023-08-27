@@ -1,6 +1,6 @@
 ---
 layout: post
-title: test markdown
+title: 마크다운 적용 테스트 
 subtitle: Each post also has a subtitle
 categories: test
 tags: [test]
@@ -9,7 +9,7 @@ tags: [test]
 You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
 **Here is some bold text**
-
+볼드 텍스트는 **로 
 ## Here is a secondary heading
 
 Here's a useless table:
