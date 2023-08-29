@@ -1,8 +1,8 @@
 ---
 layout: post
-title: An exhibit of Markdown
+title: 마크다운 포스팅 참고 문서
 subtitle: Each post also has a subtitle
-categories: test
+categories: 블로그 테스트
 tags: [example, markdown]
 ---
 

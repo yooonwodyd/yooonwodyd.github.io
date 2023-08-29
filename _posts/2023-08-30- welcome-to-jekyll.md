@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Welcome to Jekyll!
+title: 배너 비디오 추가 예시
 subtitle: A awesome static site generator.
 author: Jeffrey
-categories: test
+categories: 블로그 테스트
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
@@ -20,14 +20,6 @@ tags: jekyll theme yat
 sidebar: []
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-## section 1
-
-Jekyll also offers powerful support for code snippets:
-
 {% highlight ruby %}
 def print_hi(name)
 puts "Hi, #{name}"
@@ -36,7 +28,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-## section 2
+## 링크 별도 첨부 예시
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
@@ -44,11 +36,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-gh]: https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 
-$ a \* b = c ^ b $
-
-$ 2^{\frac{n-1}{3}} $
-
-$ \int_a^b f(x)\,dx. $
 
 ```cpp
 #include <iostream>

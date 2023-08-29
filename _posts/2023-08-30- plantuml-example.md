@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Plantuml example
-categories: test
+title: Plantuml 예시
+categories: 블로그 테스트
 tags: [plantuml]
 ---
 
@@ -64,3 +64,5 @@ User --> (Use)
 MySql --> (Use)
 
 @enduml
+
+쓸일이 있을 지는 모르겠다.

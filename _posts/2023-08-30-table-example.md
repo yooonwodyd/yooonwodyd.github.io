@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Table example
+title: Table 예시
 subtitle:
-categories: test
+categories: 블로그 테스트
 tags: [table]
 ---
 
