@@ -3,7 +3,7 @@ layout: post
 title: 배너 비디오 추가 예시
 subtitle: A awesome static site generator.
 author: Jeffrey
-categories: 블로그 테스트
+categories: 블로그_테스트
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true

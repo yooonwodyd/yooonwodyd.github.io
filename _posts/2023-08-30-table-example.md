@@ -2,7 +2,7 @@
 layout: post
 title: Table 예시
 subtitle:
-categories: 블로그 테스트
+categories: 블로그_테스트
 tags: [table]
 ---
 

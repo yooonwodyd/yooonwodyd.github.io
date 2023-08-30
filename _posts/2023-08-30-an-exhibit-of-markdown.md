@@ -2,7 +2,7 @@
 layout: post
 title: 마크다운 포스팅 참고 문서
 subtitle: Each post also has a subtitle
-categories: 블로그 테스트
+categories: 블로그_테스트
 tags: [example, markdown]
 ---
 
