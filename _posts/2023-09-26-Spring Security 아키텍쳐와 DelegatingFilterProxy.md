@@ -51,11 +51,11 @@ DelegatingFilterProxy는 서블릿 컨테이너에서 관리되어지는 서블�
 내가 사용하고 싶은 필터를 Bean으로 등록하고 커스텀함으로서 사용할 수 도있다.
 
 
-## 
+## 책임 위임
 책임을 위임한다는 말이 와닿지 않을 수 있다.
 대표적인 서블릿 컨테이너인 톰캣을 예로 들어보자.
 스프링부트의 경우 내장톰캣을 가지고 있기에 DelegatingFilterProxy 없이 FilterChain에서 필터를 등록할 수 있다.
-하지만 내장톰캣이 없다면 어떻게 해야할까? 
+하지만 내장톰캣이 없다면 어떻게 해야할까? <div>
 SpringContainer를 참조하는 DistpacherServlet을 서블릿 컨테이너에 등록한 뒤,
 스프링MVC는 DelegatingFilterProxy를 xml에 추가함으로서 SpringContainer에 있는 빈을 참조할 수 있다.
 
