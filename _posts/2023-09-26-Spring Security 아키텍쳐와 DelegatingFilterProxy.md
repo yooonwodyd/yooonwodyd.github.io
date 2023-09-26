@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Spring] Spring Security의 DelegatingFilterProxy와 FilterChainProxy
+title: "[Spring] Spring Security의 DelegatingFilterProxy와 FilterChainProxy"
 categories: 스프링_구현
 tags: [spring]
 ---
