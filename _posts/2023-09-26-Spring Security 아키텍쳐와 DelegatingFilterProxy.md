@@ -6,7 +6,7 @@ tags: [spring]
 ---
 
 > DelegatingFilterProxy와 FilterChainProxy가 무엇인지 설명하기 위해 다음의 작업을 거친다.
-> 
+>
 > 1. 서블릿 필터
 > 2. 서블렛 컨테이너
 > 3. DelegatingFilterProxy
@@ -21,13 +21,13 @@ tags: [spring]
 (*java Servlet Filter is used to intercept the client request and do some pre-processing.*)
 
 
-이를 통해 서블릿에서 인증(Authentication), 인가(Authorization), 비밀보장(Confidentiality), 데이터 무결성(Data Integrity)과 같은 
+이를 통해 서블릿에서 인증(Authentication), 인가(Authorization), 비밀보장(Confidentiality), 데이터 무결성(Data Integrity)과 같은
 보안 처리가 가능하다. 따라서 우리가 별도의 보안 처리를 하고 싶다면, 서블릿 필터를 만들어 추가하면 된다.
 
 ## 서블릿 컨테이너
 이때, 보안을 위해 서블릿필터를 구현한다는 것은 무엇을 의미할까?
 
-서블릿은 서블릿 컨테이너에서 관리되어진다. 
+서블릿은 서블릿 컨테이너에서 관리되어진다.
 **즉, 스프링 컨테이너에서 관리되어지지 않기에 스프링 관련 기술을 사용하지 못한다.**
 
 
@@ -56,7 +56,7 @@ DelegatingFilterProxy는 서블릿 컨테이너에서 관리되어지는 서블�
 대표적인 서블릿 컨테이너인 톰캣을 예로 들어보자.
 <br>
 스프링부트의 경우 내장톰캣을 가지고 있기에 DelegatingFilterProxy 없이 FilterChain에서 필터를 등록할 수 있다.
-하지만 내장톰캣이 없다면 어떻게 해야할까? 
+하지만 내장톰캣이 없다면 어떻게 해야할까?
 
 <br>
 
@@ -64,7 +64,7 @@ SpringContainer를 참조하는 DistpacherServlet을 서블릿 컨테이너에 �
 스프링MVC는 DelegatingFilterProxy를 xml에 추가함으로서 SpringContainer에 있는 빈을 참조할 수 있다.
 
 이때 DelegatingFilterProxy는 Root Application Context를 통해 FilterChainProxy를 참조하는데,
-root Application Context는 최상단에 있는 context로서 
+root Application Context는 최상단에 있는 context로서
 서로 다른 서블릿 컨텍스트에서 공유해야하는 Bean들을 등록해놓고 사용할 수 있기 때문이다.
 
 
